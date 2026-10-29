@@ -1,0 +1,57 @@
+body {
+    background-color: #fff5eb;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 100px;
+}
+
+h1 {
+    color: #a4161a;
+    font-size: 40px;
+}
+
+p {
+    color: #b54a50;
+    font-size: 18px;
+}
+
+button {
+    background-color: #a4161a;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+video {
+    display: block;
+    width: 320px;
+    max-width: 90%;
+    margin: 30px auto;
+    border: 5px solid #a4161a;
+    border-radius: 15px;
+    background-color: #fff5eb;
+}
+
+canvas {
+    display: none;
+    width: 320px;
+    max-width: 90%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 15px;
+}
+
+#countdown {
+    color: #a4161a;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin: 15px auto;
+}
+
+#camera {
+    transform: scaleX(-1);
+}
